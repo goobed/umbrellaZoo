@@ -6,10 +6,6 @@ This repository is designed to be used with a Jenkins Multibranch Pipeline. It c
 - [Pipeline Overview](#pipeline-overview)
 - [Repository Structure](#repository-structure)
 - [Jenkinsfile](#jenkinsfile)
-- [Setting Up Jenkins Multibranch Pipeline](#setting-up-jenkins-multibranch-pipeline)
-- [Branch Strategy](#branch-strategy)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Pipeline Overview
 
