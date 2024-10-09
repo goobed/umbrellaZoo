@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+  
     stages {
         stage('Build') {
             steps {
@@ -16,7 +16,6 @@ pipeline {
         }
         // Deployment is skipped for the apple branch as it's not the main branch
     }
-
     post {
         always {
             echo 'Cleaning up after apple branch pipeline...'
