@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'Running tests for apple branch...'
                 sh 'echo "Running tests for apple branch..."'
+                sh 'echo "This is just another line!"'
             }
         }
     }
