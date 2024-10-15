@@ -12,9 +12,9 @@ pipeline {
             steps {
                 echo 'Running tests for apple branch...'
                 sh 'echo "Running tests for apple branch..."'
+                sh 'echo "This is another line!"'
             }
         }
-        // Deployment is skipped for the apple branch as it's not the main branch
     }
     post {
         always {
